@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 37.992 s <<< FAILURE! - in TestSuite
+testcases.LoginTestSeeker.beforeTest  Time elapsed: 6.491 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 92
+Current browser version is 94.0.4606.71 with binary path C:\Users\acer\AppData\Local\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ACER-PC', ip: '192.168.18.32', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_102'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00E12A33+2501171]
+	Ordinal0 [0x00DAD1C1+2085313]
+	Ordinal0 [0x00CB1FA8+1056680]
+	Ordinal0 [0x00CD020A+1180170]
+	Ordinal0 [0x00CCC125+1163557]
+	Ordinal0 [0x00CC997F+1153407]
+	Ordinal0 [0x00CF999F+1350047]
+	Ordinal0 [0x00CF960A+1349130]
+	Ordinal0 [0x00CF551B+1332507]
+	Ordinal0 [0x00CD1D74+1187188]
+	Ordinal0 [0x00CD2BD9+1190873]
+	GetHandleVerifier [0x00F8EFE6+1504438]
+	GetHandleVerifier [0x0103DDA5+2220661]
+	GetHandleVerifier [0x00E95589+481881]
+	GetHandleVerifier [0x00E94639+477961]
+	Ordinal0 [0x00DB28BD+2107581]
+	Ordinal0 [0x00DB6728+2123560]
+	Ordinal0 [0x00DB6862+2123874]
+	Ordinal0 [0x00DBFA81+2161281]
+	BaseThreadInitThunk [0x76C47C04+36]
+	RtlInitializeExceptionChain [0x7767AB8F+143]
+	RtlInitializeExceptionChain [0x7767AB5A+90]
+
+

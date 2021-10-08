@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="SeekerTest">
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="http://nethorizonconsultancy.com/Seeker.aspx" />
+    <classes>
+      <class name="testcases.LoginTestSeeker"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="ProviderTest">
+  <parameter name="browser" value="firefox" />
+  <parameter name="url" value="http://nethorizonconsultancy.com/provider.aspx" />
+  
+  <classes>
+  <class name="testcases.LoginTestProvider"/>
+  </classes>
+  
+  </test>
+</suite> <!-- Suite -->
